@@ -17,6 +17,8 @@ import numpy as np
 import pandas as pd
 import math
 
+# The way I store data is awful, I was in too deep, good luck if you need to change it ;)
+# It's messy but if you use the "data_cleaning.py" script everything will be ok. 
 
 #PARAMETERS THAT CAN BE MODIFIED
 number_images = 6000
