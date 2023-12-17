@@ -34,10 +34,13 @@ temperature = 0.03
 #Learning rate
 a = 0.001
 
-#To what extent do we take the estimation of the 1st degree derivative into account when choosing which subset to study ?
-
 log_n = math.log2(num_subsets)
 
+
+#Only one variable can be set to True, changing which variable is set to True will change which variables are taken into account.
+#PE = Prediction Error
+#D1 = 1st derivative
+#D2 = 2nd derivative
 PE = True
 PE_D1 = False
 PE_D1_D2 = False
