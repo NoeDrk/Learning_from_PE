@@ -8,6 +8,8 @@ from matplotlib.lines import Line2D
 import seaborn as sns
 
 
+#This script allows you to plot a number of variables a number of different ways, you just need to comment/uncomment which ever graph you want.
+
 
 input_file = "/Users/noederijck/Desktop/word_lists/CLEAN_DATA_HOMOSUB/16000normscale_entropyentropy_PE_2.csv"
 
@@ -522,7 +524,7 @@ def plots_sub_sec_deriv_euclid(data, mean_single):
             
             
 
-#You just have to switch the second input, to either "mean" or the number of a model (0-99)
+#You just have to switch the second input, to either "mean" or the number of a model (0-how ever many models you have)
 
 plots_acc(df, "mean")
 plots_entropy(df, "0")
