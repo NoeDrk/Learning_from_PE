@@ -5,7 +5,7 @@ Created on Fri Nov  3 20:38:59 2023
 
 @author: noederijck
 """
-
+#THIS SCRIPT IS USED TO TO CLEAN THE DATA AFTER RUNNING ALL THE DESIRED MODELS, YOU JUST NEED TO PUT ALL THE RAW DATAFILES INTO THE SAME FOLDER
 import os
 import pandas as pd
 import ast
