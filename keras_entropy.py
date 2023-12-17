@@ -28,7 +28,6 @@ num_subsets = 10
 steps_to_switch_strat = 1
 training_data_size = 1
 num_models = 2
-d = True
 
 
 #Probability choice strategy
